@@ -102,6 +102,108 @@ section #partners .partner img {
   height: 90px;
 }
 
+/* Activities */
+table {
+  width: 1000px;
+  margin: 4em auto 0 auto;
+}
+caption {
+  background: #852B1B;
+  height: 40px;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 1em;
+}
+thead {
+  background: #BDE1FF;
+}
+tbody {
+  background: #EEFFE6;
+  text-align: center;
+}
+th,td {
+  width: 225px;
+  height: 75px;
+  vertical-align: middle;
+  border: solid 1px #852B1B;
+}
+th:first-child {
+  width: 125px;
+  height: 50px;
+  background: #4977D1;
+  color: #fff;
+}
+td:first-child {
+  font-weight: bold;
+  background: #BDE1FF;
+}
+
+/* Contact */
+main h1 {
+  color: #9ed034;
+  font-size: 2em;
+}
+.contactinfo div {
+  margin: 0.75em 0;
+  font-size: 0.9em;
+}
+.contactinfo span:first-child {
+  font-weight: bold;
+}
+form fieldset {
+  border: 1px solid #9ed034;
+  margin-top: 1.5em;
+  padding: 1em 2em 2em 2em;
+}
+form legend {
+  color: #4977D1;
+  font-size: 0.85em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 0.5em;
+}
+form label {
+  display: block;
+  font-size: 0.85em;
+  font-weight: bold;
+  margin: 1.25em 0 0.4em 0;
+}
+form .textbox input {
+  width: 450px;
+  height: 20px;
+  border: 1px solid #888;
+}
+form .radios label,
+form .selectmenu label {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+form .radios input {
+  width: 15px;
+}
+form .selectmenu select {
+  width: 150px;
+  text-align: center;
+}
+form .commentbox textarea {
+  width: 450px;
+  height: 150px;
+  resize: none;
+}
+form .button {
+  text-align: center;
+}
+form .button input {
+  width: 100px;
+  height: 30px;
+  background-color: #4977D1;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  margin-top: 1em;
+}
+
 /* Footer */
 footer {
   width: 100%;
