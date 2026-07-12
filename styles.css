@@ -16,6 +16,10 @@ header {
   background: no-repeat lightgrey url(images/cliff_rock.jpg);
   background-size: 1500px;
 }
+#cliffs header {
+  background: no-repeat lightgrey url(images/forest_cliff.jpg);
+  background-size: 1500px;
+}
 .main-header {
   background-color: rgb(255, 255, 255, 0.8);
   width: 700px;
@@ -137,6 +141,44 @@ th:first-child {
 td:first-child {
   font-weight: bold;
   background: #BDE1FF;
+}
+
+/* Cliffs */
+.cliff-gallery {
+  margin-top: 2em;
+  text-align: center;
+}
+.cliff-gallery .cliff {
+  display: inline-block;
+  width: 555px;
+  margin: 0.75em;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.cliff-gallery .cliff img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.cliff-gallery .cliff:hover img {
+  transform: scale(1.05);
+}
+.cliff-gallery .cliff figcaption {
+  padding: 1em;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #4977D1;
+}
+.cliff-gallery .cliff figcaption span {
+  display: block;
+  font-size: 0.75em;
+  font-weight: normal;
+  color: #888;
+  text-transform: uppercase;
+  margin-top: 0.3em;
 }
 
 /* Contact */
