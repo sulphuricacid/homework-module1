@@ -133,13 +133,14 @@
     }
 
     //Check which time zone based on the adjusted time difference
-    if (adjTimeDiff == 8) {
+    //Daylight saving offsets: PT is 7 hours behind GMT, MT 6, CT 5, ET 4
+    if (adjTimeDiff == 7) {
       timeZone = "PT"; //Pacific Time
-    } else if (adjTimeDiff == 7) {
-      timeZone = "MT"; //Mountain Time
     } else if (adjTimeDiff == 6) {
-      timeZone = "CT"; //Central Time
+      timeZone = "MT"; //Mountain Time
     } else if (adjTimeDiff == 5) {
+      timeZone = "CT"; //Central Time
+    } else if (adjTimeDiff == 4) {
       timeZone = "ET"; //Eastern Time
     } else {
       timeZone = ""; //Outside the 4 US time zones
